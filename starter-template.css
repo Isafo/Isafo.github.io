@@ -1,5 +1,6 @@
 body {
   padding-top: 50px;
+  font-family: 'Roboto';
 }
 
 h1, h2, h3, h4 {
@@ -19,4 +20,59 @@ h1, h2, h3, h4 {
 .vid {
   text-align: center;
   margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.row {
+  padding-top:40px;
+}
+
+.banner {
+  margin-top:0px;
+  background-color:#222222;
+}
+
+
+#blurredImg
+{
+    left:0;
+    top:0;
+    z-index:-1;
+}
+#ImgText {
+    position: absolute;
+    top: 115px;
+    text-align:center;
+    font-family: 'Montserrat';
+    font-size: 200%;
+    color: #fff;
+    padding: 0 20px;
+    width: 100%;
+    line-height: 150%;
+
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+div.fluidimg {
+  /* The background image must be 800px wide */
+  max-width: 800px;
+  text-align:center;
+}
+
+figure.fluidratio {
+  padding-top: 30%;  /* slope */
+  height: 200px;  /* start height */
+
+  background-image: url("img/aboutBanner.jpg");
+  background-size: cover;
+  -moz-background-size: cover;  /* Firefox 3.6 */
+  background-position: center;  /* Internet Explorer 7/8 */
+}
+
+p {
+  padding-top: 10px;
 }
