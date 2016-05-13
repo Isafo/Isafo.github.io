@@ -17,9 +17,16 @@ h1, h2, h3, h4 {
   padding-top : 20px;
 }
 
+@media screen and (max-width: 720px) {
+    iframe {
+        max-width: 100% !important;
+        width: auto !important;
+        height: auto !important;
+    }
+}
+
 .vid {
-  text-align: center;
-  margin: 0 auto;
+  padding-bottom: 30px;
 }
 
 .center {
@@ -56,6 +63,9 @@ h1, h2, h3, h4 {
 
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+.footer {
+    background-color:#222222;
+}
 
 div.fluidimg {
   /* The background image must be 800px wide */
@@ -75,4 +85,8 @@ figure.fluidratio {
 
 p {
   padding-top: 10px;
+}
+
+a.iconLink {
+    margin: 7px;
 }
