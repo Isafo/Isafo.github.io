@@ -26,6 +26,7 @@
 
 .skillP {
     margin-top: -5px;
+    text-align: right;
 }
 
 #skillHead {
@@ -35,6 +36,9 @@
 
 .noMargin {
   margin: 0px; !important
+}
+.noPaddingRight {
+  padding-right: 0px;
 }
 
 .clear:before,
