@@ -1,0 +1,50 @@
+.circleBase {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    float:left;
+}
+
+.emptyCircle {
+    margin:2px;
+    width: 25px;
+    height: 25px;
+    background: #ccc;
+    border: 1px solid #aaa;
+}
+
+.filledCircle {
+    margin:2px;
+    width: 25px;
+    height: 25px;
+    background: #6082B6;
+    border: 1px solid #5272A3;
+}
+
+.skill {
+    padding: 0px;
+}
+
+.skillP {
+    margin-top: -5px;
+}
+
+#skillHead {
+    float:left;
+    margin-left: 15px;
+}
+
+.noMargin {
+  margin: 0px; !important
+}
+
+.clear:before,
+.clear:after {
+  content:"";
+  display:table;
+}
+.clear:after {
+  clear:both;
+}
+.clear {
+  zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
