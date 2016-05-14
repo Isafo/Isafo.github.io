@@ -63,6 +63,21 @@ h1, h2, h3, h4 {
 
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+#ImgPara {
+    position: absolute;
+    top: 185px;
+    text-align:center;
+    font-family: 'Montserrat';
+    font-size: 100%;
+    color: #fff;
+    padding: 0 20px;
+    width: 100%;
+    line-height: 150%;
+
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 .footer {
     background-color:#222222;
 }
@@ -76,7 +91,17 @@ div.fluidimg {
 figure.fluidratio {
   padding-top: 30%;  /* slope */
   height: 200px;  /* start height */
+}
 
+
+figure#portfolio {
+  background-image: url("img/portfolioBanner.jpg");
+  background-size: cover;
+  -moz-background-size: cover;  /* Firefox 3.6 */
+  background-position: center;  /* Internet Explorer 7/8 */
+}
+
+figure#about {
   background-image: url("img/aboutBanner.jpg");
   background-size: cover;
   -moz-background-size: cover;  /* Firefox 3.6 */
